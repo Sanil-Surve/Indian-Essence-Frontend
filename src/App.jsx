@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1> 😋 The Indian Essence 💯</h1>
+      <h1> 😋 Indian Essence 💯</h1>
       <RecipeForm setSuggestions={setSuggestions} />
       {suggestions && <RecipeSuggestions suggestions={suggestions} />}
     </div>

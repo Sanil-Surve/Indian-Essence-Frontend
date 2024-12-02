@@ -1,0 +1,32 @@
+/* Style for the container */
+.recipe-suggestions {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  .recipe-suggestions h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the suggestions content */
+  .recipe-suggestions pre {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+  }
