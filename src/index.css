@@ -1,0 +1,102 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root font and color variables */
+:root {
+  --primary-color: #ff5722; /* Vibrant orange for accents */
+  --secondary-color: #f4f4f4; /* Light background */
+  --text-color: #333; /* Dark text */
+  --border-color: #ddd; /* Light gray borders */
+  --button-hover: #e64a19; /* Darker orange for hover states */
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container styling */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: var(--button-hover);
+}
+
+/* Suggestions section */
+h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+pre {
+  text-align: left;
+  background: var(--secondary-color);
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 14px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  form input,
+  form button {
+    font-size: 14px;
+  }
+}
