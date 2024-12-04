@@ -68,9 +68,9 @@ const RecipeForm = ({ setSuggestions }) => {
         <select value={language} onChange={(e) => setLanguage(e.target.value)}>
           <option value="English">English</option>
           <option value="Hindi">Hindi</option>
+          <option value="Marathi">Marathi</option>
           <option value="Tamil">Tamil</option>
           <option value="Gujarati">Gujarati</option>
-          <option value="Marathi">Marathi</option>
           <option value="Bengali">Bengali</option>
         </select>
       </label>
